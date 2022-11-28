@@ -6,7 +6,7 @@ import time
 
 def list(poezd):
     if poezd:
-        line = "+-{}-+-{}-+-{}-+-{}-+".format("-" * 4, "-" * 30, "-" * 20, "-" * 13)
+        line = "--{}---{}---{}---{}--".format("-" * 4, "-" * 30, "-" * 20, "-" * 13)
         print(line)
         print(
             "| {:^4} | {:^30} | {:^20} | {:^13} |".format(
